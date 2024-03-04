@@ -476,7 +476,7 @@ resource azureImageBuilderTemplate 'Microsoft.VirtualMachineImages/imageTemplate
                           '"CpuCount": 32,'
                           '"MemoryInMB": 131072,'
                           '"DataSizeInGB": 800 ,'
-                          '"LogSizeInGB": 50'
+                          '"LogSizeInGB": 10'
                       '}'
                   '}'
               ']'
