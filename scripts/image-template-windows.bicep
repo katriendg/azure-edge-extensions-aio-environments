@@ -475,8 +475,8 @@ resource azureImageBuilderTemplate 'Microsoft.VirtualMachineImages/imageTemplate
                       '"LinuxNode": {'
                           '"CpuCount": 32,'
                           '"MemoryInMB": 131072,'
-                          '"DataSizeInGB": 800 ,'
-                          '"LogSizeInGB": 10'
+                          '"DataSizeInGB": 400 ,'
+                          '"LogSizeInGB": 8'
                       '}'
                   '}'
               ']'
@@ -569,7 +569,7 @@ resource azureImageBuilderTemplate 'Microsoft.VirtualMachineImages/imageTemplate
     validate: {}
     vmProfile: {
       vmSize: vmSize
-      osDiskSizeGB: 0
+      osDiskSizeGB: 512
     }
   }
 }
